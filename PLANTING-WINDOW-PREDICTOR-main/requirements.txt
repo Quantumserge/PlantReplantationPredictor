@@ -1,0 +1,14 @@
+# Computer-vision measurement pipeline (ESP32-CAM -> Cloudinary -> OpenCV)
+numpy
+opencv-python
+rembg[cpu]
+
+# Data / model layer
+pandas
+scikit-learn
+joblib
+
+# Backend API (Flask)
+flask
+
+# Storage is local SQLite on this device (no cloud database dependency).
